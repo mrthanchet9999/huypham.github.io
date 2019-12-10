@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6ead6edecb85464f9510b200dbb239df" Name="Diagram1">
+        <EntityTypeShape EntityType="QLNTModel.BangThuHoach" Width="1.5" PointX="5.25" PointY="11.375" />
+        <EntityTypeShape EntityType="QLNTModel.Cay" Width="1.5" PointX="3" PointY="2.25" />
+        <EntityTypeShape EntityType="QLNTModel.ChiTiet_TH" Width="1.5" PointX="7.5" PointY="11.25" />
+        <EntityTypeShape EntityType="QLNTModel.ChiTietHoaDon" Width="1.5" PointX="10.5" PointY="15" />
+        <EntityTypeShape EntityType="QLNTModel.ChiTietKH" Width="1.5" PointX="7.5" PointY="8.25" />
+        <EntityTypeShape EntityType="QLNTModel.ChiTietNhap_PB" Width="1.5" PointX="10.5" PointY="12" />
+        <EntityTypeShape EntityType="QLNTModel.ChiTietNhap_TBV" Width="1.5" PointX="10.5" PointY="18" />
+        <EntityTypeShape EntityType="QLNTModel.ChiTietXuat_PB" Width="1.5" PointX="7.5" PointY="18.25" />
+        <EntityTypeShape EntityType="QLNTModel.ChiTietXuat_TBV" Width="1.5" PointX="7.5" PointY="21.25" />
+        <EntityTypeShape EntityType="QLNTModel.DoDoc" Width="1.5" PointX="6" PointY="28.25" />
+        <EntityTypeShape EntityType="QLNTModel.HoaDon" Width="1.5" PointX="5.25" PointY="14.75" />
+        <EntityTypeShape EntityType="QLNTModel.KeHoach" Width="1.5" PointX="5.25" PointY="7.875" />
+        <EntityTypeShape EntityType="QLNTModel.KhachHang" Width="1.5" PointX="3" PointY="15.125" />
+        <EntityTypeShape EntityType="QLNTModel.LoaiKH" Width="1.5" PointX="5.25" PointY="5.5" />
+        <EntityTypeShape EntityType="QLNTModel.NhaCungCap" Width="1.5" PointX="6" PointY="24.125" />
+        <EntityTypeShape EntityType="QLNTModel.NhanVien" Width="1.5" PointX="3" PointY="10.375" />
+        <EntityTypeShape EntityType="QLNTModel.NongSan" Width="1.5" PointX="5.25" PointY="2.125" />
+        <EntityTypeShape EntityType="QLNTModel.PhanBon" Width="1.5" PointX="8.25" PointY="3.625" />
+        <EntityTypeShape EntityType="QLNTModel.PhieuNhap" Width="1.5" PointX="8.25" PointY="14.75" />
+        <EntityTypeShape EntityType="QLNTModel.PhieuXuat" Width="1.5" PointX="5.25" PointY="21.125" />
+        <EntityTypeShape EntityType="QLNTModel.Quyen" Width="1.5" PointX="0.75" PointY="11.25" />
+        <EntityTypeShape EntityType="QLNTModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="QLNTModel.ThuocBaoVeTV" Width="1.5" PointX="8.25" PointY="27.375" />
+        <AssociationConnector Association="QLNTModel.CTTH_MaBang_FK" />
+        <AssociationConnector Association="QLNTModel.PNNS_MaNV_FK" />
+        <AssociationConnector Association="QLNTModel.NongSan_MaLoaiCay_FK" />
+        <AssociationConnector Association="QLNTModel.CTTH_MaNS_FK" />
+        <AssociationConnector Association="QLNTModel.CTXNS_MaHD_FK" />
+        <AssociationConnector Association="QLNTModel.CTXNS_MaNS_FK" />
+        <AssociationConnector Association="QLNTModel.CTKH_MaKH_FK" />
+        <AssociationConnector Association="QLNTModel.CTKH_MaLoai_FK" />
+        <AssociationConnector Association="QLNTModel.CTNPB_MaPB_FK" />
+        <AssociationConnector Association="QLNTModel.CTNPB_MaPN_FK" />
+        <AssociationConnector Association="QLNTModel.CTNTBV_MaPN_FK" />
+        <AssociationConnector Association="QLNTModel.CTNTBV_MaThuoc_FK" />
+        <AssociationConnector Association="QLNTModel.CTXPB_MaPB_FK" />
+        <AssociationConnector Association="QLNTModel.CTXPB_MaPX_FK" />
+        <AssociationConnector Association="QLNTModel.CTXTBV_MaPX_FK" />
+        <AssociationConnector Association="QLNTModel.CTXTBV_MaThuoc_FK" />
+        <AssociationConnector Association="QLNTModel.TBV_MaDoc_FK" />
+        <AssociationConnector Association="QLNTModel.HD_MaKH_FK" />
+        <AssociationConnector Association="QLNTModel.HD_MaNV_FK" />
+        <AssociationConnector Association="QLNTModel.KeHoach_MaNguoiLap_FK" />
+        <AssociationConnector Association="QLNTModel.PN_MaNCC_FK" />
+        <AssociationConnector Association="QLNTModel.NV_MaVT_FK" />
+        <AssociationConnector Association="QLNTModel.PN_MaNV_FK" />
+        <AssociationConnector Association="QLNTModel.PX_MaNV_FK" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
